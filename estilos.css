@@ -1,0 +1,19 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+main{
+    margin: 50px;
+    border-style: hidden;
+}
+
+.card{
+    width: 100%;
+    margin: 20px;
+    display: inline-block;
+    transition: all 400ms ease;
+    cursor: default;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+}
