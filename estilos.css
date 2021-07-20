@@ -38,12 +38,10 @@ body {
     font-weight: 300;
     line-height: 1;
     letter-spacing: -.05rem;
-    margin-left: 20px;
   }
   
   .featurette-heading {
     font-size: 50px;
-    margin-left: 20px;
   }
 
 @media (min-width: 62em) {
