@@ -1,19 +1,54 @@
 *{
-    margin:0;
+    margin: 0;
     padding:0;
     box-sizing: border-box;
     font-family:sans-serif;
 }
 main{
-    margin: 50px;
+    margin: 10px;
     border-style: hidden;
 }
 
-.card{
-    width: 100%;
-    margin: 20px;
-    display: inline-block;
-    transition: all 400ms ease;
-    cursor: default;
-    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
-}
+   
+body {
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+    color: #5a5a5a;
+    background-color: bisque;
+  }
+  .marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  .marketing h2 {
+    font-weight: 400;
+  }
+  
+  .marketing .col-lg-4 p {
+    margin-right: .50rem;
+    margin-left: .50rem;
+  }
+    
+  .featurette-divider {
+    margin-left: 20rem; 
+  }
+  
+  .featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+    margin-left: 20px;
+  }
+  
+  .featurette-heading {
+    font-size: 50px;
+    margin-left: 20px;
+  }
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+   
+  }
+} 
